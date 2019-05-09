@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Ольга Бурцева](https://up.htmlacademy.ru/htmlcss/25/user/1033369).
-* Наставник: `Неизвестно`.
+* Наставник: [Елена Забара](https://htmlacademy.ru/profile/lena___elena).
 
 ---
 
