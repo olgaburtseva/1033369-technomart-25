@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", PT Sans, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.main-header {
+  min-height: 320px;
+  margin-bottom: 59px;
+  background-color: #f4f7f9;
+}
+
+.main-navigation {
+background-color: #293449;
+justify-content: space-around;
+width: 100%;
+align-items: center;
+margin-bottom: 46px;
+}
+
+.main-header-logo{
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+  width: 220px;
+  height: 47px;
+}
+.main-header-logo:hover {
+  background-color: #ca2c37;
+}
+
+.main-header-logo:active {
+  background-color: #ba2732;
+}
+
+.header-search{
+  font-size: 17px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  width: 260px;
+}
+
+.header-links{
+width: 287px;
+}
+  .basket:active,
+  .marks:active {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #161d29;
+}
+
+.checkout{
+  background-color: #63a63e;
+}
+
+.checkout:hover {
+  background-color: #5fbb2d;
+}
+.checkout:active{
+color: rgba(255, 255, 255, 0.5);
+  background-color: #518534;
+  }
+
+.site-title{
+  font-size: 16px;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ee3643;
+  width: 196px;
+  height: 60px;
+}
+.telephone-number{
+  font-size: 21px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ee3643;
+  width: 270px;
+  height: 45px;
+  border: solid 3px #ffffff;
+  }
+
+.our-location{
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #32425c;
+  }
+
+  .header-contacts{
+    width: 270px;
+  }
+
+.user-navigation{
+  font-size: 21px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  width: 320px;
+}
+
+.site-navigation{
+  font-size: 17px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 940px;
+  height: 60px;
+  box-shadow: inset 0px -5px 0 0 #293449;
+  background-color: #32425c;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 130px;
+}
+
+.site-navigation:hover a {
+  background-color: #32425c;
+}
+
+.site-navigation:active a {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.login-link,
+.registration{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.company-presentation {
+  width: 540px;
+}
+
+.main-contacts {
+  width: 300px;
+}
+
+.features-title,
+.main-contacts-title {
+  font-size: 30px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.features p,
+.main-contacts p {
+  font-family: PTSans;
+  font-size: 13px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+}
+.delivery-companies {
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: left;
+  list-style: none;
+}
+
+.button {
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.main-footer{
+ font-size: 18px;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.33;
+ letter-spacing: normal;
+ background-color: #32425c;
+ list-style: none;
+ width: 940px;
+ min-height: 300px;
+ margin-top: 86px;
+ display: flex;
+ flex-direction: column;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+.footer-contacts-info{
+  width: 380px;
+  margin-right: 68px;
+}
+
+.lower-footer{
+ width: 540px;
+}
+
+.copyright{
+  width: 230px;
+  margin-right: 160px;
+}
+.social-buttons{
+  width: 150px;
+  margin-right: 90px;
+}
+
+.footer-contacts{
+ width: 140px;
+ margin-right: 20px;
+}
+
+.footer-copyright-htmlacademy{
+ width: 140px
+}
+
+.footer-contacts-info{
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #293449;
+  width: 100%;
+}
+.contact-htmlacademy,
+.lower-footer-navigation a{
+  color: #ffd180;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
