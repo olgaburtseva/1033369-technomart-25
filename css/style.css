@@ -13,7 +13,6 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-
 .main-header {
   min-height: 320px;
   margin-bottom: 59px;
@@ -54,7 +53,9 @@ margin-bottom: 46px;
 }
 
 .header-links{
-width: 287px;
+  width: 287px;
+  position: relative;
+  padding: 0;
 }
   .basket:active,
   .marks:active {
@@ -147,7 +148,7 @@ color: rgba(255, 255, 255, 0.5);
 .site-navigation:active a {
   background-color: #1d2739;
   color: rgba(255, 255, 255, 0.5);
-}
+} 
 
 .login-link,
 .registration{
